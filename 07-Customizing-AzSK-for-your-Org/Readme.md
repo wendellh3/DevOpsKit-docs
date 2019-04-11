@@ -228,17 +228,22 @@ Get-AzSKOrganizationPolicyStatus -SubscriptionId <SubscriptionId> `
 In this section let us look at typical use cases for org policy customization and how to accomplish them. 
 We will cover the following:
 
-a. Changing the default 'Running AzSK using…' message  
-b. Changing a global setting for some control
-c. Changing/customizing a server baseline policy set
-d. Customizing specific controls for a service SVT (e.g., Storage.json)
-   1. Turning controls On/Off
-   2. Changing Recommendation Text
-   3. Changing Severity, etc.
-   4. Disable attestation
-e. Customizing Severity labels
-f. Changing ARM policy/Alerts set (coming soon…)
-g. Changing RBAC mandatory/deprecated lists (coming soon…)
+<ol type="a">
+	<li>Changing the default 'Running AzSK using…' message</li>
+	<li>Changing a global setting for some control</li>
+	<li>Changing/customizing a server baseline policy set</li>
+	<li>Customizing specific controls for a service SVT (e.g., Storage.json)
+		<ol type="1">
+			<li>Turning controls On/Off</li>
+			<li>Changing Recommendation Text</li>
+			<li>Changing Severity, etc.</li>
+			<li>Disable attestation</li>
+		</ol>
+	</li>
+	<li>Customizing Severity labels</li>
+	<li>Changing ARM policy/Alerts set (coming soon…)</li>
+	<li>Changing RBAC mandatory/deprecated lists (coming soon…)</li>
+</ol>
 
 
 > Note: To edit policy JSON files, use a friendly JSON editor such as Visual Studio Code. It will save you lot of
